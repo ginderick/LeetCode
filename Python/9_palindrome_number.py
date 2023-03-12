@@ -10,7 +10,7 @@ class Solution_2:
 
         return x == self.reverseUtil(x)
 
-    def reverseUtil(self, x: int):
+    def reverseUtil(self, x: int) -> int:
         result = 0
 
         while x != 0:
